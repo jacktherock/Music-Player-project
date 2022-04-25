@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://www.freepnglogos.com/uploads/apple-music-logo-circle-png-28.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Music Player Project</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="music-container">
+
+            <h2 id="title">Blinding Lights</h2>
+            <h3 id="artist">The Weeknd</h3>
+            <div class="img-container">
+                <img src="img/img-1.jpg" alt="">
+            </div>
+
+            <audio src="music/Blinding Lights.mp3"></audio>
+
+            <!-- progress bar -->
+            <div class="progressbar-container" id="progress-container">
+                <div class="progress-duration-meter">
+                    <div id="current-time">0.00</div>
+                    <div id="duration">3.23</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+            <!-- controls -->
+            <div class="music-controls">
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play main-button" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
