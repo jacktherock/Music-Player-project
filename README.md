@@ -6,4 +6,7 @@
 - Can play song, go to next song, go to previous song. Also when current song ends then automatically plays next song.
 - Also can change songs current duration through progress bar.
 
+### Deployment:
+[Music Player Project](https://jacktherock.github.io/Music-Player-project/)
+
 ## Thanks for visiting !
